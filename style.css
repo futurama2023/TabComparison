@@ -1,0 +1,28 @@
+.tabs {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .tab-link {
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .tab-link:hover {
+    background-color: #ddd;
+  }
+  
+  .tab-link.active {
+    background-color: #ccc;
+  }
+  
+  .tab-content {
+    display: none;
+    padding: 20px;
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
